@@ -1,0 +1,5 @@
+* * * * * cd /home/hailijuan/work/house-spider/agent/agent/spiders;/home/hailijuan/python27/bin/scrapy crawl sina > /dev/null 2>&1
+30 * * * * cd /home/hailijuan/work/house-spider/agent/agent/spiders;/home/hailijuan/python27/bin/scrapy crawl ganji > /dev/null 2>&1
+
+15 0 */2 * * cd /home/hailijuan/work/house-spider/fangyuan/fangyuan/spiders;/home/hailijuan/python27/bin/scrapy crawl sina_leju > /dev/null 2>&1
+15 5 */2 * * cd /home/hailijuan/work/house-spider/fangyuan/fangyuan/spiders;/home/hailijuan/python27/bin/scrapy crawl d1fy > /dev/null 2>&1
